@@ -129,8 +129,8 @@ with st.container():
             
             
             data = {
-                    "Age of patient":AGE,
-                    "Gender":SEX,
+                    "AGE":AGE,
+                    "SEX":SEX,
                     'STENOK_AN':STENOK_AN,
                     'ZSN_A':ZSN_A,
                     'K_SH_POST':K_SH_POST,
