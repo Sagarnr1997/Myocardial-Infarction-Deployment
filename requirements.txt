@@ -7,3 +7,4 @@ seaborn
 plotly-express
 Scikit-learn
 openpyxl
+imblearn
