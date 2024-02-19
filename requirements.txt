@@ -1,0 +1,9 @@
+Pandas
+Streamlit
+NumPy
+Matplotlib
+Holidays
+seaborn
+plotly-express
+Scikit-learn
+openpyxl
