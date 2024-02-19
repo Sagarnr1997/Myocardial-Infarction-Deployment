@@ -17,6 +17,14 @@ from sklearn.preprocessing import MinMaxScaler
 import os
 import base64
 
+# Function to fetch data from GitHub repository
+@st.cache
+def get_data():
+    url = 'https://github.com/Sagarnr1997/streamlit-app-for-power-cons-forcasting/raw/master/PJMW_MW_Hourly.xlsx'
+    response = requests.get(url)
+    excel_data = response.content
+    return pd.read_csv(BytesIO(excel_data))
+
 @st.cache_data
 def get_img_as_base64(file):
     with open(file, "rb") as f:
